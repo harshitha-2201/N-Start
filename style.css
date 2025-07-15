@@ -1,0 +1,125 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: gray;
+    padding: 30px;
+    width: 100vw;
+   
+
+}
+ul{
+    list-style:none;
+    display:flex;
+    gap: 20px;
+
+}
+.li-elements{
+    color: red;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    text-decoration: none;
+
+}
+
+.header-container{
+    display : flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.header-content{
+    text-align: center;
+
+    
+}
+.header-content h1{
+    color: black;
+    font-size: 40px;
+
+}
+.header-content p{
+    color: gray;
+
+}
+.skills-section p{
+    color: gray;
+    
+}
+.skills-section ul{
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 10px;
+    width: 80%;
+    margin: 10px auto;
+
+}
+.skills-section li{
+    margin: 10px 0;
+    color: black;
+    font-weight: 500;
+}
+.projects-section h2{
+    font-size: 25px;
+    padding: 10px;
+}
+.projects-section table{
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+.projects-section th, .projects-section td{
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+.projects-section th{
+    background-color: lightgray;
+}
+.contact-section h2{
+    font-size: 25px;
+    padding: 10px;
+}
+.contact-section form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: 20px auto;
+}
+.contact-section label{
+  
+    font-weight: bold;
+}
+.contact-section input, .contact-section textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+.contact-section input[type="submit"]{
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.contact-section input[type="submit"]:hover{
+    background-color: darkgray;
+}
+
